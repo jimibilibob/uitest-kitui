@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+UITest-PoC in UITest-PoC, no dependencies
+UITest-PoCTests in UITest-PoC, depends on:
+UITest-PoC in UITest-PoC (explicit)
+UITest-PoCUITests in UITest-PoC, depends on:
+UITest-PoC in UITest-PoC (explicit)

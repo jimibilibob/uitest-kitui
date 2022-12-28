@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "8d41cdb69eb74ca40c1416050fc878b9046750669b9a31ac13e8682333da6622"
+build_start_time: [1672114298, 571990966]
+build_end_time: [1672114299, 76464176]
+inputs:
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoCTests/UITest_PoCTests.swift": [1672102456, 302454471]

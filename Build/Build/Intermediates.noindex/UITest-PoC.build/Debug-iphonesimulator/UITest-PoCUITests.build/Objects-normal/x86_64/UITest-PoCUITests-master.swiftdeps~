@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "854d19cc68f1be3d03e69b6c4d454d29319701119738de0e949e36403e17de54"
+build_start_time: [1672114298, 188223838]
+build_end_time: [1672114298, 219115972]
+inputs:
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoCUITests/UITest_PoCUITests.swift": !private [1672114281, 799540996]
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoCUITests/UITest_PoCUITestsLaunchTests.swift": !private [1672102456, 381769657]

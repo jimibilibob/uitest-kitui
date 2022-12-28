@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "c38689550dc25e41be6e04e31bbafb1753c3bfe4d5f54f1ccbc8b3f3f23029e7"
+build_start_time: [1672114297, 830711841]
+build_end_time: [1672114299, 135496139]
+inputs:
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoC/AppDelegate.swift": [1672102454, 434463977]
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoC/SceneDelegate.swift": [1672102454, 438809633]
+  "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoC/ViewController.swift": [1672102454, 441977977]

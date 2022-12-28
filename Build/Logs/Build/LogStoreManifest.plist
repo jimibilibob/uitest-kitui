@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3FD45804-4DD1-45ED-AE70-AB4FD07F17EE</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3FD45804-4DD1-45ED-AE70-AB4FD07F17EE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UITest-PoC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UITest-PoC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project UITest-PoC with scheme UITest-PoC</string>
+			<key>timeStartedRecording</key>
+			<real>693807090.31890905</real>
+			<key>timeStoppedRecording</key>
+			<real>693807097.50721598</real>
+			<key>title</key>
+			<string>Building project UITest-PoC with scheme UITest-PoC</string>
+			<key>uniqueIdentifier</key>
+			<string>3FD45804-4DD1-45ED-AE70-AB4FD07F17EE</string>
+		</dict>
+		<key>8852DDB7-C03F-40BB-954C-AAA5CD2144E7</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>8852DDB7-C03F-40BB-954C-AAA5CD2144E7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UITest-PoC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UITest-PoC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project UITest-PoC with scheme UITest-PoC</string>
+			<key>timeStartedRecording</key>
+			<real>693806869.097363</real>
+			<key>timeStoppedRecording</key>
+			<real>693806873.72779</real>
+			<key>title</key>
+			<string>Testing project UITest-PoC with scheme UITest-PoC</string>
+			<key>uniqueIdentifier</key>
+			<string>8852DDB7-C03F-40BB-954C-AAA5CD2144E7</string>
+		</dict>
+		<key>B1648292-50A6-4932-911B-22737D13FAD5</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B1648292-50A6-4932-911B-22737D13FAD5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UITest-PoC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UITest-PoC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project UITest-PoC with scheme UITest-PoC</string>
+			<key>timeStartedRecording</key>
+			<real>693807097.50782502</real>
+			<key>timeStoppedRecording</key>
+			<real>693807099.47386801</real>
+			<key>title</key>
+			<string>Testing project UITest-PoC with scheme UITest-PoC</string>
+			<key>uniqueIdentifier</key>
+			<string>B1648292-50A6-4932-911B-22737D13FAD5</string>
+		</dict>
+		<key>EE4DE39A-8543-47FE-92C8-A7D5E5383A7E</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EE4DE39A-8543-47FE-92C8-A7D5E5383A7E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UITest-PoC project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UITest-PoC</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project UITest-PoC with scheme UITest-PoC</string>
+			<key>timeStartedRecording</key>
+			<real>693807090.17092204</real>
+			<key>timeStoppedRecording</key>
+			<real>693807090.31840396</real>
+			<key>title</key>
+			<string>Cleaning project UITest-PoC with scheme UITest-PoC</string>
+			<key>uniqueIdentifier</key>
+			<string>EE4DE39A-8543-47FE-92C8-A7D5E5383A7E</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

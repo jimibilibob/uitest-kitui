@@ -1,0 +1,79 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e396e73581b9ad36f57f55bd9e70b879092af2d0b85fe8930eb7ed260fabe52b"
+    },
+    {
+      "guid" : "e396e73581b9ad36f57f55bd9e70b879999cc4b7e28a8f000c5e23ce4b20a77d"
+    },
+    {
+      "guid" : "e396e73581b9ad36f57f55bd9e70b879644582636310dcb8333e9b8ed5262984"
+    }
+  ],
+  "containerPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/UITest-PoC.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Build/Products",
+      "derivedDataPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build",
+      "indexDataStoreFolderPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGNING_REQUIRED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone14,2",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone14,2",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/user/Documents/jalaProjects/UITest-PoC/Build/Build/ProfileData",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "200",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "4B986E03-CE0C-4470-9CF3-AE670EB3B86E",
+          "TARGET_DEVICE_MODEL" : "iPhone14,2",
+          "TARGET_DEVICE_OS_VERSION" : "16.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "test",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
