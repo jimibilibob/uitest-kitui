@@ -1,44 +1,36 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-if [[ $# -lt 1 ]]; then
-	echo -e "Export coverage from Xcode xcresult or xccovarchive in Sonarcube Generic Test Data format\n"
-    echo "Usage: $(basename $0) <xcresult/xccovarchive> [<xcresult/xccovarchive> ...]" >&2
-    exit 2
-fi
+function convert_file {
+  local xccovarchive_file="$1"
+  local file_name="$2"
+  local xccov_options="$3"
+  echo "  <file path=\"$file_name\">"
+  xcrun xccov view $xccov_options --file "$file_name" "$xccovarchive_file" | \
+    sed -n '
+    s/^ *\([0-9][0-9]*\): 0.*$/    <lineToCover lineNumber="\1" covered="false"\/>/p;
+    s/^ *\([0-9][0-9]*\): [1-9].*$/    <lineToCover lineNumber="\1" covered="true"\/>/p
+    '
+  echo '  </file>'
+}
 
-
-for xccovarchive_file in "$@"; do
-	if [[ ! -d $xccovarchive_file ]]; then
+function xccov_to_generic {
+  echo '<coverage version="1">'
+  for xccovarchive_file in "$@"; do
+    if [[ ! -d $xccovarchive_file ]]
+    then
       echo "Coverage FILE NOT FOUND AT PATH: $xccovarchive_file" 1>&2;
       exit 1
     fi
-
-    xccov_options=""
+    local xccov_options=""
     if [[ $xccovarchive_file == *".xcresult"* ]]; then
       xccov_options="--archive"
     fi
- 
-	xcrun xccov view $xccov_options "$xccovarchive_file" | 
-		awk '
-			BEGIN {
-				FS=":"
-				print "<coverage version=\"1\">"
-			}
-			/^\//{
-				if (file) print "  </file>"
-				print "  <file path=\""$1"\">"
-				file=1
-			}
-			/^ *[0-9]*: [0-9]+( \[)?/{
-				gsub(/ +/,"",$1)
-				gsub(/ +/,"",$2);gsub(/\[/,"",$2)
-				if(int($2)>0) covered="true"; else covered="false"
-				print "    <lineToCover lineNumber=\""$1"\" covered=\""covered"\"\/>"
-			}
-			END {
-				if(file)print "  </file>"
-				print "</coverage>"
-			}
-		'
-done
+    xcrun xccov view $xccov_options --file-list "$xccovarchive_file" | while read -r file_name; do
+      convert_file "$xccovarchive_file" "$file_name" "$xccov_options"
+    done
+  done
+  echo '</coverage>'
+}
+
+xccov_to_generic "$@"
