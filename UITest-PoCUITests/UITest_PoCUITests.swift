@@ -25,38 +25,38 @@ final class UITest_PoCUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        let nameTextField = app.textFields["nameTextField"]
-        XCTAssertTrue(nameTextField.exists)
-
-        let passwordTextField = app.secureTextFields["passwordTextField"]
-        XCTAssertTrue(passwordTextField.exists)
-
-        nameTextField.tap()
-        nameTextField.typeText("Israel")
-
-        passwordTextField.tap()
-        passwordTextField.typeText("password")
-    }
-
-    func test_ViewController_signinButton_shouldNavigateToDestination() {
-        let name = app.textFields["nameTextField"]
-        let nameExists = name.waitForExistence(timeout: 5)
-        XCTAssertTrue(nameExists)
-        name.tap()
-        name.typeText("israelUser")
-        
-        let passwordTextField = app.secureTextFields["passwordTextField"]
-        let passwordExists = passwordTextField.waitForExistence(timeout: 5)
-        XCTAssertTrue(passwordExists)
-        passwordTextField.tap()
-        passwordTextField.typeText("password")
-
-        let signin = app/*@START_MENU_TOKEN@*/.buttons["signinButton"].staticTexts["Signin"]/*[[".buttons[\"Signin\"].staticTexts[\"Signin\"]",".buttons[\"signinButton\"].staticTexts[\"Signin\"]",".staticTexts[\"Signin\"]"],[[[-1,2],[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
-        let signinExists = signin.waitForExistence(timeout: 5)
-//        signin.tap()
-        XCTAssertTrue(signinExists)
-    }
+//    func testExample() throws {
+//        let nameTextField = app.textFields["nameTextField"]
+//        XCTAssertTrue(nameTextField.exists)
+//
+//        let passwordTextField = app.secureTextFields["passwordTextField"]
+//        XCTAssertTrue(passwordTextField.exists)
+//
+//        nameTextField.tap()
+//        nameTextField.typeText("Israel")
+//
+//        passwordTextField.tap()
+//        passwordTextField.typeText("password")
+//    }
+//
+//    func test_ViewController_signinButton_shouldNavigateToDestination() {
+//        let name = app.textFields["nameTextField"]
+//        let nameExists = name.waitForExistence(timeout: 5)
+//        XCTAssertTrue(nameExists)
+//        name.tap()
+//        name.typeText("israelUser")
+//        
+//        let passwordTextField = app.secureTextFields["passwordTextField"]
+//        let passwordExists = passwordTextField.waitForExistence(timeout: 5)
+//        XCTAssertTrue(passwordExists)
+//        passwordTextField.tap()
+//        passwordTextField.typeText("password")
+//
+//        let signin = app/*@START_MENU_TOKEN@*/.buttons["signinButton"].staticTexts["Signin"]/*[[".buttons[\"Signin\"].staticTexts[\"Signin\"]",".buttons[\"signinButton\"].staticTexts[\"Signin\"]",".staticTexts[\"Signin\"]"],[[[-1,2],[-1,1],[-1,0]]],[1]]@END_MENU_TOKEN@*/
+//        let signinExists = signin.waitForExistence(timeout: 5)
+////        signin.tap()
+//        XCTAssertTrue(signinExists)
+//    }
 
     func testLaunchPerformance() throws {
 //        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
